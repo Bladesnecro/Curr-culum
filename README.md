@@ -1,7 +1,7 @@
 # Welcome to My Portafolio
 
 ## 🔗 Links
-- [Curriculum](https://github.com/Bladesnecro/Curr-culum)) 
+- [Curriculum]https://github.com/Bladesnecro/Curr-culum)) 
 - [Forks Task's](#)
 
    - *Fork 1*: [Gianliuca s Project](https://github.com/Bladesnecro/Curriculum-de-Gianluca))
