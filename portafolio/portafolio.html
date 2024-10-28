@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Maximiliano Foradori</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            font-size: 0.7rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 4rem;
+            background-color: #4a4a4a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            height: 3rem;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 80px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4a90e2;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+
+
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #eaeaea;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            flex: 1 1 calc(25% - 10px);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .skill .percentage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-size: 1.2em;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .skill:hover .percentage {
+            opacity: 1;
+        }
+        .project {
+            background: #eaeaea;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Maximiliano Foradori</h1>
+    <a href="#inicio">Inicio</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#proyectos">Portafolio</a>
+    <a href="#contacto">Contacto</a>
+</header>
+
+<div id="inicio" class="container">
+    <section>
+        <h2>Sobre Mí</h2>
+        <p> Soy un profesional de la salud mental con experiencia en el área de reclutamiento y selección, con un enfoque en la gestión de talento y la mejora de procesos. Mi pasión por la psicología y la gestión de recursos humanos me ha llevado a liderar equipos y optimizar procesos en diversas organizaciones. Mi enfoque se basa en la colaboración, la innovación y la mejora continua para maximizar el potencial humano.
+            Experiencia Laboral</p>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <div id="skills" class="skills">
+            </div>
+            <div class="skill">Bootstrap.js
+                <div class="percentage">95%</div>
+            </div>
+            <div class="skill">HTML & CSS
+                <div class="percentage">95%</div>
+            </div>
+            </div>
+            <div class="skill">Git
+                <div class="percentage">95%</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Proyectos</h2>
+        <div id="proyectos" class="projects">
+            <div class="project">
+                <h3>Experiencias Laboral 1</h3>
+                <img src="Assets/images/vsantaritacl.jpeg" alt="Santa Rita">
+                <p>Encargado del Reclutamiento y Selección junto con Desarrollo Organizacional en Viñas y Edificio Corporativo (Actual)</p>
+                <a href="https://www.santarita.com/quienes-somos/gobierno-corporativo/" target="_blank">Ver más</a>
+            </div>
+            <div class="project">
+                <h3>Experiencia Laboral 2</h3>
+                <img src="Assets/images/walmartcl.jpg" alt="Walmart Chile">
+                <p>Se logró establecer programas de formación costo 0 a través de Sence. La Gestión del Cambio del arribo de plataformas Harvard Manage Mentor y Harvard Spark.Se gestionaron las negociaciones para las licencias corporativas de LinkedIn Learning a nivel compañía. Se integró sistema LMS Clikma. Se logró diseño y kickoff de Onboarding Corporativo. Se estableció Manual de Inmigrantes y extranjeros para orientación al área de reclutamiento y selección. Se logró el 1% y 2% de Inclusión de profesionales con discapacidad a trabajar en diversos cargos de operación y corporativo. Se aumentó la participación en Programa de Idiomas "Learners".</p>
+                <a href="https://www.walmartchile.cl/" target="_blank">Ver más</a>
+            </div>
+            <div class="project">
+                <h3>Experiencia Laboral 3</h3>
+                <img src="Assets/images/dominioncl.jpg" alt="Dominion Global">
+                <p>Se realizó ISTAS 21 con éxito a los colaboradores de la organización. Se rediseñó proceso de reclutamiento y selección en cuanto a flujo y Pruebas Psicológicas. Se logró aumentar eficiencia de procesos de Selección</p>
+                <a href="https://example.com" target="_blank">Ver más</a>
+            </div>
+            <div class="project">
+                <h3>Experiencia Laboral 4</h3>
+                <img src="Assets/images/pwccl.jpg" alt="PwC Price Waterhouse Coopers">
+                <p>We accomplish the Kickoff of Google Suite at a Company level. We make the recruitment and selection process more eficient. We keep nice KPI according to the Recruitment and Selection process for Tax and Legal, Assurance, Advisory and Human Resources Services along with the other managemets.</p>
+                <a href="https://www.pwc.com/gx/en.html" target="_blank">Ver más</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Proyectos</h2>
+        <div id="contacto" class="contacto">
+            <div class="card">
+                <h3>Contacto</h3>
+                <p href="mailto:maxforamont@live.cl">maxforamont@live.cl</p>
+                <p href="tel:+56952280850">+56952280850</p>
+                <p href="https://www.linkedin.com/in/maxforamont/" target="_blank">linkedin.com/in/maximiliano-foradori/</p>
+                <p href="https://github.com/Bladesnecro" target="_blank">github.com/maximilianoforadori</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Maximiliano Foradori. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+</html>
